@@ -1,0 +1,144 @@
+{
+    "AA100": {
+        "cid": "AA100",
+        "description": "The principles of fluid flow, flight, and propulsion; the creation of lift and drag, aerodynamic performance including takeoff, climb, range, and landing performance, structural concepts, propulsion systems, trajectories, and orbits. The history of aeronautics and astronautics. Prerequisites: MATH 41, 42; elementary physics.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Introduction to Aeronautics and Astronautics",
+        "prereqs": [
+            "MATH41",
+            "MATH42"
+        ],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut"
+        ]
+    },
+    "AA116Q": {
+        "cid": "AA116Q",
+        "description": "Transportation accounts for nearly one-third of American energy use and greenhouse gas emissions and three-quarters of American oil consumption. It has crucial impacts on climate change, air pollution, resource depletion, and national security. Students wishing to address these issues will need to reconsider how we move, finding sustainable transportation solutions. This course will provide an introduction to the issue, covering the past and present of transportation and its impacts; examining alternative fuel proposals; and digging deeper into the most promising option: battery electric vehicles. Energy requirements of air, ground, and maritime transportation; design of electric motors, power control systems, drive trains, and batteries; and technologies for generating renewable energy. Two fun opportunities for hands-on experiences with electric cars. Prerequisites: Introduction to calculus and Physics AP or elementary mechanics.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Electric Automobiles and Aircraft",
+        "prereqs": [],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut"
+        ]
+    },
+    "AA190": {
+        "cid": "AA190",
+        "description": "For undergraduates. Experimental or theoretical work under faculty direction, and emphasizing development of research and communication skills. Written report(s) and letter grade required; if this is not appropriate, enroll in 199. Consult faculty in area of interest for appropriate topics, involving one of the graduate research groups or other special projects. May be repeated for credit. Prerequisite: consent of student services manager and instructor.",
+        "maxUnits": 5,
+        "minUnits": 3,
+        "name": "Directed Research and Writing in Aero/Astro",
+        "prereqs": [],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut",
+            "Win",
+            "Spr",
+            "Sum"
+        ]
+    },
+    "AA199": {
+        "cid": "AA199",
+        "description": "Directed reading, lab, or theoretical work for undergraduate students. Consult faculty in area of interest for appropriate topics involving one of the graduate research groups or other special projects. May be repeated for credit. Prerequisite: consent of instructor.",
+        "maxUnits": 5,
+        "minUnits": 1,
+        "name": "Independent Study in Aero/Astro",
+        "prereqs": [],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut",
+            "Win",
+            "Spr",
+            "Sum"
+        ]
+    },
+    "AA200": {
+        "cid": "AA200",
+        "description": "Analytical and numerical techniques for the aerodynamic analysis of aircraft, focusing on airfoil theory, finite wing theory, far-field and Trefftz-plane analysis, two-dimensional laminar and turbulent boundary layers in airfoil analysis, laminar-to-turbulent transition, compressibility effects, and similarity rules. Biweekly assignments require MATLAB or a suitable programming language. Prerequisite: undergraduate courses in basic fluid mechanics and applied aerodynamics, AA 210A.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Applied Aerodynamics",
+        "prereqs": [
+            "AA210A"
+        ],
+        "py/object": "util.Course",
+        "quarters": [
+            "Spr"
+        ]
+    },
+    "AA201A": {
+        "cid": "AA201A",
+        "description": "Acoustic equations for a stationary homogeneous fluid; wave equation; plane, spherical, and cylindrical waves; harmonic (monochromatic) waves; simple sound radiators; reflection and transmission of sound at interfaces between different media; multipole analysis of sound radiation; Kirchoff integral representation; scattering and diffraction of sound; propagation through ducts (dispersion, attenuation, group velocity); sound in enclosed regions (reverberation, absorption, and dispersion); radiation from moving sources; propagation in the atmosphere and underwater. Prerequisite: first-year graduate standing in engineering, mathematics, sciences; or consent of instructor.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Fundamentals of Acoustics",
+        "prereqs": [],
+        "py/object": "util.Course",
+        "quarters": [
+            "Spr"
+        ]
+    },
+    "AA203": {
+        "cid": "AA203",
+        "description": "Basic solution techniques for optimal control problems. Dynamic programming, calculus of variations, and numerical techniques for trajectory optimization. Special cases (chiefly LQR and robotic motion planning); modern solution approaches (such as MPC and MILP); and introduction to stochastic optimal control. Examples in MATLAB. Prerequisites: Linear algebra (EE 263 or equivalent).",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Introduction to Optimal Control Theory",
+        "prereqs": [
+            "EE263"
+        ],
+        "py/object": "util.Course",
+        "quarters": [
+            "Spr"
+        ]
+    },
+    "AA210A": {
+        "cid": "AA210A",
+        "description": "Topics: development of the three-dimensional, non-steady, field equations for describing the motion of a viscous, compressible fluid; differential and integral forms of the equations; constitutive equations for a compressible fluid; the entropy equation; compressible boundary layers; area-averaged equations for one-dimensional steady flow; shock waves; channel flow with heat addition and friction; flow in nozzles and inlets; oblique shock waves; Prandtl-Meyer expansion; unsteady one-dimensional flow; the shock tube; small disturbance theory; acoustics in one-dimension; steady flow in two-dimensions; potential flow; linearized potential flow; lift and drag of thin airfoils. Prerequisites: undergraduate background in fluid mechanics and thermodynamics.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Fundamentals of Compressible Flow",
+        "prereqs": [],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut"
+        ]
+    },
+    "AA212": {
+        "cid": "AA212",
+        "description": "Analysis and design techniques for multivariable feedback systems. Review of basic properties of multi-input, multi-output linear time-invariant systems and of basic concepts from convex analysis. Study of the stability and robustness of feedback loops. Approaches for optimal and robust feedback control design, chiefly H2 and H-infinity synthesis. Prerequisite: EE 263. Recommended: EE 364A.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Analysis and Design of Multivariable Feedback Systems",
+        "prereqs": [
+            "EE263",
+            "EE364A"
+        ],
+        "py/object": "util.Course",
+        "quarters": [
+            "Win"
+        ]
+    },
+    "AA214A": {
+        "cid": "AA214A",
+        "description": "Numerical methods from a user's point of view. Lagrange interpolation, splines. Integration: trapezoid, Romberg, Gauss, adaptive quadrature; numerical solution of ordinary differential equations: explicit and implicit methods, multistep methods, Runge-Kutta and predictor-corrector methods, boundary value problems, eigenvalue problems; systems of differential equations, stiffness. Emphasis is on analysis of numerical methods for accuracy, stability, and convergence. Introduction to numerical solutions of partial differential equations; Von Neumann stability analysis; alternating direction implicit methods and nonlinear equations. Prerequisites: CME 200/ME 300A, CME 204/ME 300B.",
+        "maxUnits": 3,
+        "minUnits": 3,
+        "name": "Introduction to Numerical Methods for Engineering (CME 206, ME 300C)",
+        "prereqs": [
+            "ME300A",
+            "ME300B",
+            "CME204",
+            "CME200"
+        ],
+        "py/object": "util.Course",
+        "quarters": [
+            "Aut",
+            "Spr"
+        ]
+    }
+}
